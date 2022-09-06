@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Udemy course project using ruby and RoR 5.  
 
-Things you may want to cover:
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/400px-Ruby_logo.svg.png" alt="Ruby icon" width="150" />
 
-* Ruby version
+## About the project
 
-* System dependencies
+University system that will allow us to enroll students into courses.  
 
-* Configuration
+## We are going to learn more about:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* MaterializeCSS
+* Navbar creation
+* Deal with form data
+* Manage CRUD operations
+* Authentication
+* Rails console
