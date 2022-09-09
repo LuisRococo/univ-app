@@ -3,8 +3,8 @@ class LoginsController < ApplicationController
   end
 
   def create
-    student = Student.find_by(params[:logins][:email].downcase)
-    if student && student.authenticate(params[:password])
+    student = Student.find_by(email: params[:logins][:email].downcase)
+    if student && student.authenticate(params[:logins][:password])
       session[:student_id] = student.id
       flash[:notice] = 'You have successfully logged in'
       redirect_to student
